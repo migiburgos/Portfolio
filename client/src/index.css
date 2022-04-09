@@ -1,0 +1,15 @@
+/* Importing fonts from google api */
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+/* font-family: "Manrope", sans-serif; */
+
+/* Gradient Text */
+/* --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%); */
+
+:root {
+  --font-family: sans-serif;
+
+  --color-bg: lightgray;
+  --color-footer: gray;
+  --color-text: black;
+  --color-subtext: #444343;
+}
