@@ -1,0 +1,37 @@
+.navbar {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar__links {
+  display: flex;
+}
+
+.navbar__logo {
+  display: flex;
+  margin-right: 4rem;
+}
+
+.navbar__links-container {
+  display: flex;
+}
+.navbar__links-container p,
+.navbar button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.navbar__links-container p {
+  margin-right: 1.5rem;
+}
+
+.navbar button {
+  border-radius: 5px;
+
+  padding: 0.5rem 1rem;
+}
