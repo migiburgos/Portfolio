@@ -1,0 +1,63 @@
+.project,
+.project__photo,
+.project__content {
+  display: flex;
+  flex: 1;
+}
+
+.project {
+  padding: 2rem 3rem;
+  background-color: var(--color-bg);
+}
+
+.project__photo {
+  justify-content: center;
+}
+
+.project__photo img {
+  width: 80%;
+  height: 100%;
+}
+
+.project__content {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.project__content h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+
+  margin-bottom: 1rem;
+}
+
+.project__description {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: left;
+
+  margin-bottom: 3rem;
+  width: 85%;
+}
+
+.project__button {
+  display: flex;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.project__button p {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin-right: 0.5rem;
+}
