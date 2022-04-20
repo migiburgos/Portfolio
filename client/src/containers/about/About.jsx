@@ -4,7 +4,7 @@ import mypic1 from "../../assets/mypic1.png";
 
 const About = () => {
   return (
-    <div className="about section__padding">
+    <div className="about section__padding" id="about">
       <div className="about__photo">
         <img src={mypic1} alt="mypic1" />
       </div>

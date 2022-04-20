@@ -58,3 +58,15 @@
   flex-direction: column;
   flex: 1;
 }
+
+@media screen and (max-width: 1050px) {
+}
+
+@media screen and (max-width: 700px) {
+}
+
+@media screen and (max-width: 550px) {
+  .footer {
+    padding: 0;
+  }
+}

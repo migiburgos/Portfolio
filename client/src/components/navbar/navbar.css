@@ -4,6 +4,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  padding: 2rem 6rem;
 }
 
 .navbar__links {
@@ -18,16 +20,19 @@
 .navbar__links-container {
   display: flex;
 }
+
 .navbar__links-container p,
 .navbar button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
+
+  margin: 0 1rem;
 }
 
 .navbar__links-container p {
-  margin-right: 1.5rem;
+  /* margin-right: 1.5rem; */
 }
 
 .navbar button {

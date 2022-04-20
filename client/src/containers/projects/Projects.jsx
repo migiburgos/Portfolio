@@ -38,7 +38,7 @@ const items = [
 
 const Projects = () => {
   return (
-    <div className="projects section__padding">
+    <div className="projects section__padding" id="projects">
       <h1 className="projects__title">Portfolio</h1>
       <p className="projects__subtitle">Most Recent Work</p>
       <Swiper

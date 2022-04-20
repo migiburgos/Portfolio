@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navbar.css";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 
 const Menu = () => (
   <>
@@ -16,8 +17,9 @@ const Menu = () => (
 );
 
 const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="navbar section__padding">
+    <div className="navbar">
       <div className="navbar__links">
         <div className="navbar__logo">
           <p>LOGO</p>
@@ -27,7 +29,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      <button type="button">Contact me</button>
+      <a href="#contact">
+        <div className="navbar__contact">
+          <button type="button">Contact me</button>
+        </div>
+      </a>
     </div>
   );
 };

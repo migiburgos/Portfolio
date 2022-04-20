@@ -15,14 +15,18 @@ const Header = () => {
           seamless web experiences for end-users.
         </p>
         <div className="header__buttons-container">
-          <div className="header__buttons-button">
-            <p>About me</p>
-            <BsFillPersonFill size={16} />
-          </div>
-          <div className="header__buttons-button">
-            <p>Projects</p>
-            <BsFillEyeFill size={16} />
-          </div>
+          <a href="#about">
+            <div className="header__buttons-button">
+              <p>About me</p>
+              <BsFillPersonFill size={16} />
+            </div>
+          </a>
+          <a href="#projects">
+            <div className="header__buttons-button">
+              <p>Projects</p>
+              <BsFillEyeFill size={16} />
+            </div>
+          </a>
         </div>
       </div>
 
