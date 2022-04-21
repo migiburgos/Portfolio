@@ -30,7 +30,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div className="header__pic">
+      <div className="header__photo">
         <img src={mypic2} alt="mypic1" />
       </div>
     </div>
