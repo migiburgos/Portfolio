@@ -18,6 +18,13 @@ const Menu = () => (
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+
+  const toggleIcon = toggleMenu ? (
+    <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
+  ) : (
+    <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
+  );
+
   return (
     <div className="navbar">
       <div className="navbar__links">
@@ -29,11 +36,26 @@ const Navbar = () => {
         </div>
       </div>
 
-      <a href="#contact">
-        <div className="navbar__contact">
+      <div className="navbar__contact">
+        <a href="#contact">
           <button type="button">Contact me</button>
-        </div>
-      </a>
+        </a>
+      </div>
+
+      <div className="navbar__menu">
+        {toggleIcon}
+
+        {toggleMenu && (
+          <div className="navbar__menu-container scale-up-center">
+            <div className="navbar__list">
+              <Menu />
+              <a href="#contact">
+                <button type="button">Contact me</button>
+              </a>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 };
