@@ -100,7 +100,7 @@
 
 .contact__info-container input:focus,
 .contact__sideB textarea:focus {
-  border: 5px solid blue;
+  border: 3px solid black;
 }
 
 .contact__button {
@@ -122,6 +122,53 @@
 
   margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .contact__info-container input {
+    height: 3rem;
+  }
+
+  .contact__button {
+    width: 55%;
+    padding: 0.3rem;
+  }
+
+  .contact__button p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .contact h1:first-child {
+    font-size: 32px;
+    line-height: 34px;
+    margin-bottom: 0.5rem;
+  }
+  .contact__subtitle {
+    margin-bottom: 4rem;
+  }
+
+  .contact__content {
+    flex-direction: column;
+  }
+
+  .contact__sideA {
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+  .contact__sideB {
+    width: 100%;
+    flex: 1;
+    /* border: 1px solid black; */
+  }
+
+  .contact__button {
+    width: 45%;
+  }
+}
+
+/* ---------------PLACEHOLDER--------------- */
 
 ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */

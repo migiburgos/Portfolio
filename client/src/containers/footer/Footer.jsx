@@ -19,21 +19,23 @@ const Menu = () => (
 const Footer = () => {
   return (
     <div className="footer">
-      <div className="sideA">
-        <div>
-          <h1>Jose</h1>
-          <p>Full-stack developer</p>
+      <div className="footer__content">
+        <div className="sideA">
+          <div>
+            <h1>Jose</h1>
+            <p>Full-stack developer</p>
+          </div>
+        </div>
+        <div className="sideB">
+          <div className="footer_links-container">
+            <Menu />
+          </div>
+        </div>
+        <div className="sideC">
+          <AiFillLinkedin size={25} />
         </div>
       </div>
-      <div className="sideB">
-        <div className="footer_links-container">
-          <Menu />
-        </div>
-        <p>@2022 Jose Miguel Burgos. All rights reserved.</p>
-      </div>
-      <div className="sideC">
-        <AiFillLinkedin size={25} />
-      </div>
+      <p>@2022 Jose Miguel Burgos. All rights reserved.</p>
     </div>
   );
 };

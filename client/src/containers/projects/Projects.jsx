@@ -1,6 +1,8 @@
 import React from "react";
 import "./projects.css";
-import mypic1 from "../../assets/mypic1.png";
+import project1 from "../../assets/project1.png";
+import project2 from "../../assets/project2.png";
+import project3 from "../../assets/project3.png";
 
 import { Project } from "../../components";
 
@@ -20,25 +22,27 @@ const items = [
     title: "Modern Website",
     description:
       "Website adaptable to all devices, with ui components and animated interactions.",
+    image: project1,
     link: "",
   },
   {
-    title: "Modern Website",
+    title: "NASA Mission Scheduler",
     description:
-      "Website adaptable to all devices, with ui components and animated interactions.",
+      "Website scheduler and history viewer for NASA launch missions.",
+    image: project2,
     link: "",
   },
   {
-    title: "Modern Website",
-    description:
-      "Website adaptable to all devices, with ui components and animated interactions.",
+    title: "Pong Multiplayer",
+    description: "Play pong multiplayer online with anyone.",
+    image: project3,
     link: "",
   },
 ];
 
 const Projects = () => {
   return (
-    <div className="projects section__padding" id="projects">
+    <div className="projects " id="projects">
       <h1 className="projects__title">Portfolio</h1>
       <p className="projects__subtitle">Most Recent Work</p>
       <Swiper
@@ -48,9 +52,13 @@ const Projects = () => {
         modules={[Navigation, Pagination]}
         className="mySwiper"
       >
-        {items.map((item) => (
-          <SwiperSlide>
-            <Project title={item.title} description={item.description} />
+        {items.map((item, index) => (
+          <SwiperSlide key={index}>
+            <Project
+              title={item.title}
+              description={item.description}
+              image={item.image}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

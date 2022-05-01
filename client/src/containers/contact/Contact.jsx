@@ -17,6 +17,7 @@ const Contact = () => {
             <AiFillLinkedin size={25} />
           </div>
         </div>
+
         <div className="contact__sideB">
           <div className="contact__info-container">
             <input placeholder="Name" />

@@ -3,19 +3,21 @@ import "./project.css";
 import project1 from "../../assets/project1.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
-const Project = ({ title, description }) => {
+const Project = ({ title, description, image }) => {
   return (
     <div className="project">
       <div className="project__photo">
-        <img src={project1} alt="project1" />
+        <img src={image} alt="project1" />
       </div>
       <div className="project__content">
         <h1>{title}</h1>
         <p className="project__description">{description}</p>
-        <div className="project__button">
-          <p>Demo</p>
-          <AiOutlineArrowRight size={18} />
-        </div>
+        <a href="http://localhost:8000/">
+          <div className="project__button">
+            <p>Demo</p>
+            <AiOutlineArrowRight size={18} />
+          </div>
+        </a>
       </div>
     </div>
   );

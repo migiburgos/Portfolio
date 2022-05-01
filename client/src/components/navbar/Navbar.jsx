@@ -19,12 +19,6 @@ const Menu = () => (
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
-  const toggleIcon = toggleMenu ? (
-    <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
-  ) : (
-    <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
-  );
-
   return (
     <div className="navbar">
       <div className="navbar__links">
@@ -43,7 +37,11 @@ const Navbar = () => {
       </div>
 
       <div className="navbar__menu">
-        {toggleIcon}
+        {toggleMenu ? (
+          <RiCloseLine size={27} onClick={() => setToggleMenu(false)} />
+        ) : (
+          <RiMenu3Line size={27} onClick={() => setToggleMenu(true)} />
+        )}
 
         {toggleMenu && (
           <div className="navbar__menu-container scale-up-center">
