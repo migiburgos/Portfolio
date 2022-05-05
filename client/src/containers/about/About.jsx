@@ -8,31 +8,6 @@ import { FiDownload } from "react-icons/fi";
 import { Experience } from "../../components";
 
 const About = () => {
-  const downloadCV = (e) => {
-    console.log("download");
-    // fetch("http://localhost:25565/cv");
-    window.open("http://localhost:25565/cv", "_blank", "noopener,noreferrer");
-    // const fileName = "CV Jose Miguel Burgos.pdf";
-    // axios({
-    //   method: "get",
-    //   url: "http://localhost:25565/cv/",
-    //   responseType: "blob",
-    //   headers: {},
-    // })
-    //   .then((res) => {
-    //     const url = window.URL.createObjectURL(new Blob([res.data]));
-    //     const link = document.createElement("a");
-    //     link.href = url;
-    //     link.setAttribute("download", fileName);
-    //     document.body.appendChild(link);
-    //     link.click();
-    //   })
-    //   .catch((error) => {
-    //     alert(error);
-    //   });
-    console.log("hello");
-  };
-
   const openInNewTab = () => {
     const url = "http://localhost:25565/downloadcv";
     const newWindow = window.open(url, "_blank", "noopener,noreferrer");
@@ -46,7 +21,8 @@ const About = () => {
   ];
 
   return (
-    <div className="about section__padding" id="about">
+    // section__padding
+    <div className="about" id="about">
       <h1>About Me</h1>
       <h3>My introduction</h3>
       <div className="about__content">

@@ -5,7 +5,8 @@ import { IoMdSend } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className="contact section__padding" id="contact">
+    // section__padding
+    <div className="contact" id="contact">
       <h1>Contact Me</h1>
       <p className="contact__subtitle">Get in touch</p>
 

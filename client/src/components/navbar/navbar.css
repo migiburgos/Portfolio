@@ -28,10 +28,22 @@
   flex: 1;
   align-items: center;
   justify-content: flex-end;
+
+  border-radius: 5px;
+  background-color: var(--color-button);
+  color: var(--color-button-text);
+
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+
+  margin: 0 1rem;
+
+  padding: 0.5rem 1rem;
 }
 
 .navbar__links-container p,
-.navbar__contact button,
 .navbar__menu-container p {
   font-family: var(--font-family);
   font-weight: 500;
@@ -39,12 +51,6 @@
   line-height: 25px;
 
   margin: 0 1rem;
-}
-
-.navbar__contact button {
-  border-radius: 5px;
-
-  padding: 0.5rem 1rem;
 }
 
 /* ------------------------------ */

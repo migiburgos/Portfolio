@@ -1,6 +1,13 @@
 .header {
   display: flex;
-  padding: 4rem 8rem;
+  padding: 4rem 16rem;
+
+  /* border: 1px solid black; */
+}
+
+.header__content,
+.header__photo {
+  /* border: 1px solid black; */
 }
 
 .header__content {
@@ -35,7 +42,7 @@
   font-size: 18px;
   line-height: 27px;
 
-  width: 63%;
+  width: 100%;
   margin-bottom: 3rem;
 }
 
@@ -50,7 +57,7 @@
   align-items: center;
   border-radius: 5px;
 
-  padding: 1rem 1.5rem;
+  padding: 1rem 1rem;
   margin-right: 2rem;
 }
 
@@ -73,7 +80,7 @@
 }
 
 .header__photo img {
-  width: 65%;
+  width: 78%;
   height: 100%;
   border-radius: 146.5px;
   background-color: #8cbdb9;

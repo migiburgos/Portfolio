@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  padding: 4rem 16rem;
 }
 
 .contact h1:first-child {
@@ -26,6 +28,8 @@
 .contact__content {
   display: flex;
   flex: 1;
+
+  /* border: 1px solid black; */
 }
 
 .contact__sideA {
@@ -46,6 +50,7 @@
 
 .contact__icons {
   margin-top: 1rem;
+  color: var(--color-button);
 }
 
 .contact__sideB {
@@ -61,6 +66,7 @@
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 14px;
+  background: rgba(224, 158, 80, 0.29);
 
   padding: 1rem;
   border-radius: 5px;
@@ -75,6 +81,7 @@
   font-size: 14px;
   border-radius: 5px;
   border: 0px;
+  background: rgba(224, 158, 80, 0.29);
 
   padding: 1rem;
   margin-bottom: 1rem;
@@ -90,14 +97,16 @@
 }
 
 .contact__button {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 5px;
+  background-color: var(--color-button);
+  color: var(--color-button-text);
 
   /* width: 30%; */
-  padding: 0.5rem;
+  padding: 1rem 0.75rem;
 }
 
 .contact__button p {

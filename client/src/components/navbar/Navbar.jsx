@@ -30,11 +30,9 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="navbar__contact">
-        <a href="#contact">
-          <button type="button">Contact me</button>
-        </a>
-      </div>
+      <a href="#contact">
+        <div className="navbar__contact">Contact me</div>
+      </a>
 
       <div className="navbar__menu">
         {toggleMenu ? (

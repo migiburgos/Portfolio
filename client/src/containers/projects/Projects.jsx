@@ -42,7 +42,7 @@ const items = [
 
 const Projects = () => {
   return (
-    <div className="projects " id="projects">
+    <div className="projects" id="projects">
       <h1 className="projects__title">Portfolio</h1>
       <p className="projects__subtitle">Most Recent Work</p>
       <Swiper
