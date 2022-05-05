@@ -19,14 +19,14 @@ const Contact = () => {
         </div>
 
         <div className="contact__sideB">
-          <div className="contact__info-container">
-            <input placeholder="Name" />
-            <input placeholder="Email" />
-          </div>
+          <input placeholder="Name" />
+          <input placeholder="Email" />
           <textarea placeholder="Message" />
-          <div className="contact__button">
-            <p>Send Message</p>
-            <IoMdSend size={18} />
+          <div className="contact__button-container">
+            <div className="contact__button">
+              <p>Send Message</p>
+              <IoMdSend size={18} />
+            </div>
           </div>
         </div>
       </div>

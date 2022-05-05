@@ -1,7 +1,7 @@
 .footer {
   display: flex;
   flex-direction: column;
-  background-color: burlywood;
+  background-color: var(--color-button);
   align-items: center;
 
   padding: 3rem 16rem 5rem;

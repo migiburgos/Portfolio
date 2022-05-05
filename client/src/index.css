@@ -8,8 +8,10 @@
 :root {
   --font-family: sans-serif;
 
-  --color-bg: lightgray;
+  --color-bg: #e8eceb;
   --color-footer: gray;
   --color-text: black;
   --color-subtext: #444343;
+  --color-button: #e09e50;
+  --color-button-text: #ffffff;
 }
