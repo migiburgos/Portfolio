@@ -31,7 +31,7 @@
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 52px;
-  line-height: 78px;
+  line-height: 65px;
 
   margin-bottom: 2rem;
 }
@@ -39,7 +39,7 @@
 .header__description {
   font-family: var(--font-family);
   font-weight: 500;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 27px;
 
   width: 100%;
@@ -48,7 +48,7 @@
 
 .header__buttons-container {
   display: flex;
-  /* flex: 1; */
+  flex: 1;
 }
 
 .header__buttons-button {

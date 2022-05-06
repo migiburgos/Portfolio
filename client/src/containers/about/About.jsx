@@ -22,7 +22,7 @@ const About = () => {
 
   return (
     // section__padding
-    <div className="about" id="about">
+    <div className="about section__padding" id="about">
       <h1>About Me</h1>
       <h3>My introduction</h3>
       <div className="about__content">

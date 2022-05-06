@@ -5,7 +5,7 @@
   justify-content: center;
   align-items: center;
 
-  padding: 4rem 16rem;
+  /* padding: 4rem 16rem; */
 }
 
 .contact h1:first-child {
@@ -107,6 +107,14 @@
 
   /* width: 30%; */
   padding: 1rem 0.75rem;
+
+  /* pointer-events: none;
+  opacity: 0.4; */
+}
+
+.contact__button--loading {
+  background-color: lightgray;
+  pointer-events: none;
 }
 
 .contact__button p {
@@ -125,7 +133,7 @@
 
   .contact__button {
     /* width: 55%; */
-    padding: 0.3rem;
+    /* padding: 0.3rem; */
   }
 
   .contact__button p {
