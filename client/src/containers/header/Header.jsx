@@ -7,7 +7,7 @@ import { BsFillPersonFill, BsFillEyeFill } from "react-icons/bs";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header section__padding">
       <div className="header__content">
         <h2>Hello, I'm</h2>
         <h1>Jose Miguel C. Burgos</h1>

@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  padding: 4rem 16rem;
+  /* padding: 4rem 16rem; */
 
   /* border: 1px solid black; */
 }
@@ -94,7 +94,7 @@
   .header {
     /* display: flex; */
     /* flex-direction: row; */
-    padding: 4rem 2rem;
+    /* padding: 4rem 2rem; */
   }
 
   .header__content {
@@ -108,8 +108,8 @@
 
   .header__photo img {
     width: 90%;
-    height: 85%;
-    /* aspect-ratio: 2/1; */
+    height: 75%;
+    /* aspect-ratio: 5/1; */
   }
 }
 
