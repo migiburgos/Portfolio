@@ -5,8 +5,9 @@
 /* Gradient Text */
 /* --gradient-text: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%); */
 
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 :root {
-  --font-family: sans-serif;
+  --font-family: "Open Sans", sans-serif;
 
   --color-bg: #e8eceb;
   --color-footer: gray;
