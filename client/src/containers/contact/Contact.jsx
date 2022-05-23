@@ -54,8 +54,8 @@ const Contact = () => {
   return (
     // section__padding
     <div className="contact section__padding" id="contact">
-      <h1>Contact Me</h1>
-      <p className="contact__subtitle">Get in touch</p>
+      <h1 className="title">Contact Me</h1>
+      <p className="subtitle">Get in touch</p>
 
       <div className="contact__content">
         <div className="contact__sideA">

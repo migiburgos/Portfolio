@@ -11,7 +11,7 @@ const Header = () => {
       <div className="header__content">
         <h2>Hello, I'm</h2>
         <h1>Jose Miguel C. Burgos</h1>
-        <p className="header__description">
+        <p className="header__description paragraph">
           Freelance UI designer, Fullstack developer, & Data Miner. I create
           seamless web experiences for end-users.
         </p>

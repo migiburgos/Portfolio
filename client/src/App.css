@@ -23,6 +23,32 @@ a {
   margin: 4rem 6rem;
 }
 
+.title {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 54px;
+
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+
+  margin-bottom: 4rem;
+}
+
+.paragraph {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+}
+
 /* ------------------SCALE UP------------------ */
 /*  * w: http://animista.net, t: @cssanimista */
 .scale-up-center {

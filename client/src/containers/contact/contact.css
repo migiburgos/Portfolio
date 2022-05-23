@@ -8,7 +8,7 @@
   /* padding: 4rem 16rem; */
 }
 
-.contact h1:first-child {
+/* .contact h1:first-child {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 40px;
@@ -23,7 +23,7 @@
   text-align: center;
 
   margin-bottom: 5rem;
-}
+} */
 
 .contact__content {
   display: flex;

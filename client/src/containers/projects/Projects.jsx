@@ -43,8 +43,8 @@ const items = [
 const Projects = () => {
   return (
     <div className="projects" id="projects">
-      <h1 className="projects__title">Portfolio</h1>
-      <p className="projects__subtitle">Most Recent Work</p>
+      <h1 className="title">Portfolio</h1>
+      <p className="subtitle">Most Recent Work</p>
       <Swiper
         // cssMode={true}
         navigation={true}

@@ -10,8 +10,8 @@ const Project = ({ title, description, image }) => {
         <img src={image} alt="project1" />
       </div>
       <div className="project__content">
-        <h1>{title}</h1>
-        <p className="project__description">{description}</p>
+        <h1 className="paragraph">{title}</h1>
+        <p className="project__description paragraph">{description}</p>
         <a href="http://localhost:8000/">
           <div className="project__button">
             <p>Demo</p>

@@ -23,15 +23,15 @@ const About = () => {
   return (
     // section__padding
     <div className="about section__padding" id="about">
-      <h1>About Me</h1>
-      <h3>My introduction</h3>
+      <h1 className="title">About Me</h1>
+      <h3 className="subtitle">My introduction</h3>
       <div className="about__content">
         <div className="about__photo">
           <img src={mypic_no_bg_2} alt="mypic1" />
         </div>
 
         <div className="about__details">
-          <p className="about__text">
+          <p className="about__text paragraph">
             An inquisitive Computer Science Engineering student, skilled in
             leadership, seeking to leverage solid development skills with focus
             on collaboration, communication and passion.
